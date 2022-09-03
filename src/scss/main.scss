@@ -1,0 +1,32 @@
+$small-width: 450px;
+
+body {
+  font-size: 16px;
+
+  .section {
+    max-width: 1440px;
+    margin: 6em 16%;
+    width: 68%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img-hero {
+      //width: 50%;
+      margin-right: 2rem;
+    }
+
+    .content {
+      display: block;
+      width: 92%;
+      margin: 0 8% 0 2rem;
+    }
+
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+}
